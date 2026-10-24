@@ -1,0 +1,7 @@
+﻿Command:
+curl -s -X PUT "http://localhost:5000/customer/auth/review/1?review=Great%20book%20to%20read" -b cookie.txt
+curl -s http://localhost:5000/review/1
+
+Output:
+The review for the book with ISBN 1 has been added/updated.
+{"critic1":"A masterpiece of modern African literature.","testuser":"Great book to read"}

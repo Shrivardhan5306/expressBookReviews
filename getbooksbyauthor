@@ -1,0 +1,5 @@
+﻿Command:
+curl -s "http://localhost:5000/author/Chinua%20Achebe"
+
+Output:
+[{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{"critic1":"A masterpiece of modern African literature."}}]

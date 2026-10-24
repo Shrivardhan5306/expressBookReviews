@@ -1,0 +1,5 @@
+﻿Command:
+curl -s http://localhost:5000/review/1
+
+Output:
+{"critic1":"A masterpiece of modern African literature."}
