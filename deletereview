@@ -1,7 +1,2 @@
-﻿Command:
-curl -s -X DELETE "http://localhost:5000/customer/auth/review/1" -b cookie.txt
-curl -s http://localhost:5000/review/1
-
-Output:
-Reviews for the ISBN 1 posted by the user testuser deleted.
-{"critic1":"A masterpiece of modern African literature."}
+curl -s -X DELETE "http://localhost:5000/review/1" -b cookie.txt
+Review for ISBN 1 deleted.

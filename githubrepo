@@ -1,25 +1,2 @@
-﻿Command:
-curl -s -H "User-Agent: Mozilla/5.0" https://api.github.com/repos/Shrivardhan5306/expressBookReviews
-
-Output:
-{
-  "id": 533628036,
-  "name": "expressBookReviews",
-  "full_name": "Shrivardhan5306/expressBookReviews",
-  "private": false,
-  "fork": true,
-  "url": "https://api.github.com/repos/Shrivardhan5306/expressBookReviews",
-  "html_url": "https://github.com/Shrivardhan5306/expressBookReviews",
-  "parent": {
-    "name": "expressBookReviews",
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
-  },
-  "source": {
-    "name": "expressBookReviews",
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
-  },
-  "visibility": "public",
-  "default_branch": "main"
-}
+curl -s -H "User-Agent: Mozilla/5.0" https://api.github.com/repos/Shrivardhan5306/expressBookReviews | jq '.parent.full_name'
+"ibm-developer-skills-network/expressBookReviews"
